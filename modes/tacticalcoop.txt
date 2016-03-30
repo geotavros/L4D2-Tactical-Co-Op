@@ -1,0 +1,22 @@
+"tacticalcoop"
+{
+	"base"		"coop"
+ 
+	"maxplayers"	"4"
+	"hasdifficulty"	"1"
+ 
+	"DisplayTitle"	"Tactical Coop"
+	"Description"	  "For slow team tactical movement through maps"
+	"Image"		"maps/any"
+	"Author"	"DIMEDROLL"
+  
+  convar
+	{
+    //z_non_head_damage_factor_multiplier 0.08
+    survivor_max_incapacitated_count 0
+    rescue_distance 100000
+  }
+}
+
+// Zombies can kill you in 8 hits on easy, 4 hits on normal, 2 hits on advanced and 1 hit on expert. 
+// 
